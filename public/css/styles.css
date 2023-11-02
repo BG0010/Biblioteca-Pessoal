@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 /* Reset básico */
 body, h1, h2, h3, ul, li, a {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
+
 }
 
 /* Estilização do header */
 header {
-    background-color: #333;
+    background-color: #7f5539;
     color: white;
     padding: 1rem 0;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 header h1 {
@@ -24,6 +27,9 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1em;
+    font-weight: 700;
 }
 
 nav li {
@@ -34,16 +40,34 @@ nav a {
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #fff;
+    color: #000;
 }
 
 /* Estilo do conteúdo principal */
 main {
     padding: 2rem;
+}
+
+main section h2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+main section p {
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    align-items: center;
+    margin-top: -0.6em;
 }
 
 /* Estilo para ocultar elementos */
